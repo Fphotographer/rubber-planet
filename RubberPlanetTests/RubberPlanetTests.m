@@ -1,11 +1,3 @@
-//
-//  RubberPlanetTests.m
-//  RubberPlanetTests
-//
-//  Created by Stephen Rood on 10/26/15.
-//  Copyright © 2015 Stephen Rood. All rights reserved.
-//
-
 #import <XCTest/XCTest.h>
 
 @interface RubberPlanetTests : XCTestCase
