@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97A0E5861BDE2E3D0027C10B /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97A0E5851BDE2E3D0027C10B /* SpriteKit.framework */; };
+		97A0E5881BDE2E490027C10B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97A0E5871BDE2E490027C10B /* UIKit.framework */; };
+		97A0E58B1BDE2EB10027C10B /* RubberPlanetScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A0E58A1BDE2EB10027C10B /* RubberPlanetScene.m */; settings = {ASSET_TAGS = (); }; };
 		97C011A71BDDE49E0060CDC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C011A61BDDE49E0060CDC7 /* main.m */; };
 		97C011AA1BDDE49F0060CDC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C011A91BDDE49F0060CDC7 /* AppDelegate.m */; };
 		97C011AD1BDDE49F0060CDC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C011AC1BDDE49F0060CDC7 /* ViewController.m */; };
@@ -27,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		97A0E5851BDE2E3D0027C10B /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		97A0E5871BDE2E490027C10B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		97A0E5891BDE2EB10027C10B /* RubberPlanetScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubberPlanetScene.h; sourceTree = "<group>"; };
+		97A0E58A1BDE2EB10027C10B /* RubberPlanetScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RubberPlanetScene.m; sourceTree = "<group>"; };
 		97C011A21BDDE49E0060CDC7 /* RubberPlanet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RubberPlanet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C011A61BDDE49E0060CDC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		97C011A81BDDE49E0060CDC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97A0E5881BDE2E490027C10B /* UIKit.framework in Frameworks */,
+				97A0E5861BDE2E3D0027C10B /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,8 @@
 		97C011991BDDE49E0060CDC7 = {
 			isa = PBXGroup;
 			children = (
+				97A0E5871BDE2E490027C10B /* UIKit.framework */,
+				97A0E5851BDE2E3D0027C10B /* SpriteKit.framework */,
 				97C011A41BDDE49E0060CDC7 /* RubberPlanet */,
 				97C011BE1BDDE49F0060CDC7 /* RubberPlanetTests */,
 				97C011A31BDDE49E0060CDC7 /* Products */,
@@ -85,6 +96,8 @@
 				97C011A91BDDE49F0060CDC7 /* AppDelegate.m */,
 				97C011AB1BDDE49F0060CDC7 /* ViewController.h */,
 				97C011AC1BDDE49F0060CDC7 /* ViewController.m */,
+				97A0E5891BDE2EB10027C10B /* RubberPlanetScene.h */,
+				97A0E58A1BDE2EB10027C10B /* RubberPlanetScene.m */,
 				97C011AE1BDDE49F0060CDC7 /* Main.storyboard */,
 				97C011B11BDDE49F0060CDC7 /* Assets.xcassets */,
 				97C011B31BDDE49F0060CDC7 /* LaunchScreen.storyboard */,
@@ -213,6 +226,7 @@
 			files = (
 				97C011AD1BDDE49F0060CDC7 /* ViewController.m in Sources */,
 				97C011AA1BDDE49F0060CDC7 /* AppDelegate.m in Sources */,
+				97A0E58B1BDE2EB10027C10B /* RubberPlanetScene.m in Sources */,
 				97C011A71BDDE49E0060CDC7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +416,7 @@
 				97C011C61BDDE49F0060CDC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97C011C71BDDE49F0060CDC7 /* Build configuration list for PBXNativeTarget "RubberPlanetTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +425,7 @@
 				97C011C91BDDE49F0060CDC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
